@@ -468,7 +468,7 @@ const Users = (row) => {
           TenantFilter: tenant?.defaultDomainName,
           Endpoint: 'users',
           $select:
-            'id,accountEnabled,businessPhones,city,createdDateTime,companyName,country,department,displayName,faxNumber,givenName,isResourceAccount,jobTitle,mail,mailNickname,mobilePhone,onPremisesDistinguishedName,officeLocation,onPremisesLastSyncDateTime,otherMails,postalCode,preferredDataLocation,preferredLanguage,proxyAddresses,showInAddressList,state,streetAddress,surname,usageLocation,userPrincipalName,userType,assignedLicenses,onPremisesSyncEnabled,extension_8066e1a305054006a0be85628f58d4f8_ManagedServicesType,extension_8066e1a305054006a0be85628f58d4f8_ManagedServicesUser',
+            'id,accountEnabled,businessPhones,city,createdDateTime,companyName,country,department,displayName,faxNumber,givenName,isResourceAccount,jobTitle,mail,mailNickname,mobilePhone,onPremisesDistinguishedName,officeLocation,onPremisesLastSyncDateTime,otherMails,postalCode,preferredDataLocation,preferredLanguage,proxyAddresses,showInAddressList,state,streetAddress,surname,usageLocation,userPrincipalName,userType,assignedLicenses,onPremisesSyncEnabled,managedServicesType,managedServicesUser',
           $count: true,
           $orderby: 'displayName',
         },
